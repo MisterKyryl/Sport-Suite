@@ -743,6 +743,11 @@ body::after {
   font-size: 1.25rem;
 }
 
+.block__title.title_small {
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
 .block__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1365,6 +1370,7 @@ body::after {
 
 .page__container {
   background-color: #fff;
+  padding-bottom: 2.5rem;
 }
 
 .swiper {
