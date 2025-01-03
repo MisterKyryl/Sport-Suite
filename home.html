@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240611201038">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container bg_light">
+				<div class="header__logo">
+					<a href="home.html" class=""><img src="img/logo.svg" alt="Картинка"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__main main">
+				<div class="main__container bg_light">
+					<div class="main__image -ibg_contain">
+						<picture><source srcset="img/home/main/01.webp" type="image/webp"><img src="img/home/main/01.png" alt="Картинка"></picture>
+						<div class="main__body">
+							<button data-button-scroll="actions" type="button" class="main__button button">Замовити зараз</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__hot hot">
+				<div class="hot__container bg_light">
+					<h2 class="hot__title title">Хіт продажів</h2>
+					<div class="hot__items">
+						<div class="hot__image -ibg hot__image_width">
+							<picture><source srcset="img/home/hot/01.webp" type="image/webp"><img src="img/home/hot/01.png" alt="Картинка"></picture>
+						</div>
+						<div class="hot__image -ibg">
+							<picture><source srcset="img/home/hot/02.webp" type="image/webp"><img src="img/home/hot/02.png" alt="Картинка"></picture>
+						</div>
+						<div class="hot__image -ibg">
+							<picture><source srcset="img/home/hot/03.webp" type="image/webp"><img src="img/home/hot/03.png" alt="Картинка"></picture>
+						</div>
+					</div>
+					<div class="hot__body">
+						<button data-button-scroll="actions" type="button" class="hot__button button">Замовити зараз <img src="img/home/hot/icons/arrow.svg" alt="Картинка"></button>
+					</div>
+				</div>
+			</div>
+			<section class="page__costume costume">
+				<div class="costume__container bg_light">
+					<div class="costume__header header-costume">
+						<h2 class="header-costume__title title">Обери свій ідеальний костюм</h2>
+						<p class="header-costume__text">Стильний та одночасно зручний костюм, який ідеально сідає, і не розтягується після пари носок.
+							Ідеально підходить для активних жінок. Завдяки поєднанню стилю і лаконічності він підкреслить Ваш смак і фігуру. Ця модель стане
+							Вашим фаворитом серед інших образів.</p>
+					</div>
+					<div class="costume__body">
+						<div class="costume__slider swiper">
+							<div class="costume__wrapper swiper-wrapper">
+								<div class="costume__slide slide-costume swiper-slide">
+									<div class="slide-costume__image -ibg">
+										<picture><source srcset="img/home/slider/01.webp" type="image/webp"><img src="img/home/slider/01.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="costume__slide slide-costume swiper-slide">
+									<div class="slide-costume__image -ibg">
+										<picture><source srcset="img/home/slider/02.webp" type="image/webp"><img src="img/home/slider/02.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="costume__slide slide-costume swiper-slide">
+									<div class="slide-costume__image -ibg">
+										<picture><source srcset="img/home/slider/03.webp" type="image/webp"><img src="img/home/slider/03.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="costume__slide slide-costume swiper-slide">
+									<div class="slide-costume__image -ibg">
+										<picture><source srcset="img/home/slider/04.webp" type="image/webp"><img src="img/home/slider/04.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="costume__slide slide-costume swiper-slide">
+									<div class="slide-costume__image -ibg">
+										<picture><source srcset="img/home/slider/05.webp" type="image/webp"><img src="img/home/slider/05.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="costume__slide slide-costume swiper-slide">
+									<div class="slide-costume__image -ibg">
+										<picture><source srcset="img/home/slider/06.webp" type="image/webp"><img src="img/home/slider/06.jpg" alt=""></picture>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="actions" class="page__actions actions">
+				<div class="actions__container bg_light">
+					<div class="actions__header">
+						<h2 class="actions__title title">Жіночий спортивний костюм </h2>
+						<div class="actions__price">1799 грн<span>2570 грн</span></div>
+					</div>
+					<form action="#" id="form" class="actions__form form">
+						<div class="form__item">
+							<input id="formName" autocomplete="name" type="text" name="form[]" data-error="Ошибка" placeholder="Введіть Ваше ім’я" class="input">
+						</div>
+						<div class="form__item">
+							<input id="formPhone" autocomplete="tel" type="tel" name="form[]" data-error="Ошибка" placeholder="Ваш номер телефону" class="input">
+						</div>
+						<div class="form__item">
+							<select name="form[]" class="form">
+								<option value="1" selected>ОБЕРІТЬ РОЗМІР</option>
+								<option value="2">42-44</option>
+								<option value="3">46-48</option>
+								<option value="4">50-52</option>
+								<option value="5">54-56</option>
+							</select>
+						</div>
+						<div class="form__item">
+							<div class="form__color">фісташковий</div>
+						</div>
+						<div class="form__item">
+							<button type="submit" data-popup="#popup" class="form__button button">Замовити зараз</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="page__delivery delivery">
+				<div class="delivery__container bg_light">
+					<div class="delivery__image -ibg">
+						<picture><source srcset="img/home/delivery/01.webp" type="image/webp"><img src="img/home/delivery/01.png" alt="Картинка"></picture>
+					</div>
+				</div>
+			</div>
+			<div class="page__survey survey">
+				<div class="survey__container bg_light">
+					<h2 class="survey__title title">виміри</h2>
+					<div class="survey__items">
+						<div class="survey__item">
+							<div data-spollers data-one-spoller class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">42-44</button>
+									<div class="spollers__body body-spollers">
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Тканина</div>
+											<div class="body-spollers__text">Турецька двонитка пенье (склад 95% бавовна, 5% ликра)</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Кофта</div>
+											<div class="body-spollers__text">Обхват грудей (ОГ): 116 см</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 76-96 см</div>
+											<div class="body-spollers__text">Довжина виробу: 57 см</div>
+											<div class="body-spollers__text">Довжина рукава по внутрішньому шву: 48 см</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Штани</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 64-82 см</div>
+											<div class="body-spollers__text">Обхват стегон (ОС): 94 см</div>
+											<div class="body-spollers__text">Довжина виробу: 99 см</div>
+											<div class="body-spollers__text">Довжина по внутрішньому шву: 71 см</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">46-48</button>
+									<div class="spollers__body body-spollers">
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Тканина</div>
+											<div class="body-spollers__text">Турецька двонитка пенье (склад 95% бавовна, 5% ликра)</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Кофта</div>
+											<div class="body-spollers__text">Обхват грудей (ОГ): 126 см</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 80-102 см</div>
+											<div class="body-spollers__text">Довжина виробу: 57 см</div>
+											<div class="body-spollers__text">Довжина рукава по внутрішньому шву: 48 см</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Штани</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 68-88 см</div>
+											<div class="body-spollers__text">Обхват стегон (ОС): 100 см</div>
+											<div class="body-spollers__text">Довжина виробу: 99 см</div>
+											<div class="body-spollers__text">Довжина по внутрішньому шву: 71 см</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">50-52</button>
+									<div class="spollers__body body-spollers">
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Тканина</div>
+											<div class="body-spollers__text">Турецька двонитка пенье (склад 95% бавовна, 5% ликра)</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Кофта</div>
+											<div class="body-spollers__text">Обхват грудей (ОГ): 134 см</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 84-116 см</div>
+											<div class="body-spollers__text">Довжина виробу: 60 см</div>
+											<div class="body-spollers__text">Довжина рукава по внутр. шву: 48 см</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Штани</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 72-94 см</div>
+											<div class="body-spollers__text">Обхват стегон (ОС): 108 см</div>
+											<div class="body-spollers__text">Довжина виробу: 102 см</div>
+											<div class="body-spollers__text">Довжина по внутрішньому шву: 72 см</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">54-56</button>
+									<div class="spollers__body body-spollers">
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Тканина</div>
+											<div class="body-spollers__text">Турецька двонитка пенье (склад 95% бавовна, 5% ликра)</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Кофта</div>
+											<div class="body-spollers__text">Обхват грудей (ОГ): 142 см</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 84-120 см</div>
+											<div class="body-spollers__text">Довжина виробу: 62 см</div>
+											<div class="body-spollers__text">Довжина рукава по внутрішньому шву: 48 см</div>
+										</div>
+										<div class="body-spollers__item">
+											<div class="body-spollers__label">Штани</div>
+											<div class="body-spollers__text">Обхват талії (ОТ): 76-98 см</div>
+											<div class="body-spollers__text">Обхват стегон (ОС): 114 см</div>
+											<div class="body-spollers__text">Довжина виробу: 103 см</div>
+											<div class="body-spollers__text">Довжина по внутрішньому шву: 72 см</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__reviews reviews">
+				<div class="reviews__container bg_light">
+					<h2 class="reviews__title title">Відгуки (3)</h2>
+					<div class="reviews__block block-reviews">
+						<div class="block-reviews__header">
+							<div class="block-reviews__name">Анастасія Б.</div>
+							<div class="block-reviews__date">22.11.2023</div>
+						</div>
+						<div class="block-reviews__text">Покупкою залишилася задоволена – костюм відмінний, якісний! Найкращі рекомендації!</div>
+						<div class="rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">5</div>
+						</div>
+					</div>
+					<div class="reviews__block block-reviews">
+						<div class="block-reviews__header">
+							<div class="block-reviews__name">Наталія Д.</div>
+							<div class="block-reviews__date">17.11.2023</div>
+						</div>
+						<div class="block-reviews__text">Шикарно, була шокована, коли побачила її на пошті, у бутіку аналогічна 2200 грн коштує, якість та
+							сама, не переплачуйте, сміливо замовляйте!!!</div>
+						<div class="rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">5</div>
+						</div>
+					</div>
+					<div class="reviews__block block-reviews">
+						<div class="block-reviews__header">
+							<div class="block-reviews__name">Єкатерина З.</div>
+							<div class="block-reviews__date">14.11.2023</div>
+						</div>
+						<div class="block-reviews__text">Чудовий магазин. Я помилилася з розміром, без проблем замінили іншим. Рекомендую.</div>
+						<div class="rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__collection collection">
+				<div class="collection__container bg_light">
+					<div class="collection__image -ibg">
+						<picture><source srcset="img/home/collection/01.webp" type="image/webp"><img src="img/home/collection/01.png" alt="Картинка"></picture>
+						<div class="collection__body">
+							<button data-button-scroll="actions" type="button" class="collection__button button">Замовляй зі знижкою зараз</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<ul class="footer__items">
+					<li class="footer__item">
+						<a href="return.html" class="footer__link">Про повернення товару</a>
+					</li>
+					<li class="footer__item">
+						<a href="policy.html" class="footer__link">Політика конфіденційності</a>
+					</li>
+					<li class="footer__item">
+						<a href="conditions.html" class="footer__link">Умови використання сайту</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__image">
+					<picture><source srcset="img/popup/01.webp" type="image/webp"><img src="img/popup/01.png" alt="Картинка"></picture>
+				</div>
+				<h4 class="popup__title">Дякуємо за Ваше замовлення!</h4>
+				<p class="popup__text">
+					Незабаром наш менеджер зателефонує Вам, для його підтвердження.<span>Бажаємо Вам чудового дня!</span>
+				</p>
+				<button data-close type="button" class="popup__close">повернутися на сайт</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240611201038"></script>
+</body>
+
+</html>
